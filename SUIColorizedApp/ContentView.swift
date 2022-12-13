@@ -69,6 +69,7 @@ struct ContentView: View {
     }
     
     private func checkValue() {
+        // Не смог разобраться в логике
         if let number = Double(redTextFieldValue) {
             if number >= 0, number <= 255 {
                 redSliderValue = number
